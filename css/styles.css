@@ -1,0 +1,442 @@
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    margin: 0 auto;
+    font-family: 'Raleway', sans-serif;
+    background-color: whitesmoke;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-size: 30px;
+    text-align: center;
+    margin: 10px auto;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    background: rgb(121, 83, 9);
+    background: radial-gradient(circle, rgb(121, 84, 9) 74%, rgba(34, 26, 0, 0.795) 130%);
+}
+
+h5 {
+    font-size: 15px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(46, 45, 45);
+}
+
+p {
+    margin: 5px;
+    padding: 5px;
+    line-height: 1.5;
+}
+
+
+/* modal */
+
+#myModal {
+    background-color: rgba(44, 44, 44, 0.356);
+}
+
+#myButtonlg {
+    background-color: rgb(44, 44, 44);
+}
+
+#myButtonlg:hover {
+    background-color: rgba(65, 65, 65, 0.904);
+}
+
+.modal-header {
+    background-color: #000000;
+}
+
+.modal-header img {
+    width: 300px;
+}
+
+.close {
+    color: whitesmoke;
+}
+
+.modal-content {
+    font-family: 'Philosopher', sans-serif;
+    background-color: #a17a2c;
+    text-align: center;
+    color: black;
+}
+
+.modal-content h1 {
+    padding: 5px;
+    font-size: 30px;
+    background: none;
+    color: rgb(22, 22, 22);
+}
+
+.modal-content h2 {
+    padding: 5px;
+    font-size: 20px;
+    background: none;
+    color: rgb(22, 22, 22);
+}
+
+
+/* NavBar */
+
+.bg-img {
+    background-image: url("/img/logoqueentrans.png");
+    min-height: 565px;
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    display: none;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: rgb(131, 107, 3);
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+    color: rgb(241, 227, 163);
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+
+/* Button */
+
+.block {
+    display: block;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    border: none;
+    background-color: #000000;
+    color: white;
+    padding: 14px 28px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.block:hover {
+    background-color: #6e5721fb;
+    color: black;
+}
+
+
+/* biografia */
+
+.three-columns {
+    -webkit-column-count: 3;
+    /* Chrome, Safari, Opera */
+    -moz-column-count: 3;
+    /* Firefox */
+    column-count: 3;
+    margin: 10px;
+}
+
+.three-columns img {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    margin: -15px 0 10px 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: rgb(255, 255, 255);
+    padding: 3px;
+}
+
+
+/* integrantes */
+
+.integrantes .row {
+    margin: 10px;
+}
+
+.image img {
+    height: 350px;
+}
+
+
+/* Grid Gallery  integrantes*/
+
+.row {
+    margin: 8px -16px;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 3px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.content {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+}
+
+
+/* discografia */
+
+.disco {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: stretch;
+    align-items: center;
+}
+
+
+/* table */
+
+.list {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+    margin: 10px;
+}
+
+table {
+    margin: auto;
+    background-color: rgba(102, 83, 1, 0.39);
+    border-collapse: collapse;
+    border: rgba(102, 83, 1, 0.39) 2px solid;
+}
+
+th {
+    background-color: rgba(131, 108, 3, 0.795);
+}
+
+td {
+    border: rgba(131, 108, 3, 0.795) 2px solid;
+}
+
+aside {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+    padding: 35px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+iframe {
+    width: 340px;
+    height: 400px;
+}
+
+
+/* Arrow to top */
+
+#btntop {
+    margin: 0 140px 15px 0;
+    text-align: center;
+    float: right;
+}
+
+#btntop i {
+    color: black;
+}
+
+
+/* footer */
+
+footer {
+    position: relative;
+    width: 100%;
+    height: 65px;
+    margin-top: 45px;
+    padding: 20px;
+    left: 0;
+    bottom: 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-align-content: space-around;
+    -ms-flex-line-pack: distribute;
+    align-content: space-around;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.ft-legal p {
+    margin: 0 auto;
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+    font-size: 20px;
+    color: #ffffff;
+    letter-spacing: 0;
+    line-height: 28px;
+}
+
+.ft-social {
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+    font-size: 25px;
+    color: #ffffff;
+    letter-spacing: 0;
+    line-height: 28px;
+}
+
+i {
+    color: whitesmoke;
+    padding: 5px;
+}
+
+
+/* MediaQueries */
+
+@media screen and (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+    .bg-img {
+        background-image: url("/img/logoqueentrans450.png");
+        min-height: 500px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+    .three-columns {
+        -webkit-column-count: 1;
+        /* Chrome, Safari, Opera */
+        -moz-column-count: 1;
+        /* Firefox */
+        column-count: 1;
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+        font-size: 15px;
+        margin: 10px auto;
+        padding: 10px;
+    }
+    .bg-img {
+        background-image: url("/img/logoqueentrans350.png");
+        min-height: 350px;
+    }
+    .overlay a {
+        font-size: 25px
+    }
+    .overlay-content {
+        top: 10%;
+    }
+    .overlay .closebtn {
+        top: 10px;
+        right: 25px;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+@media screen and (max-height: 450px) {
+    .overlay a {
+        font-size: 15px
+    }
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+@media (min-width: 700px) {
+    iframe {
+        width: 450px;
+        height: 850px;
+    }
+    #btntop {
+        margin-right: 633px;
+    }
+}

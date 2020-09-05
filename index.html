@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Boostrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Css personalizado -->
+    <link rel="stylesheet" href="./css/styles.css" type="text/css" media="all">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;900&display=swap" rel="stylesheet">
+    <!-- Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/187d0b14a7.js" crossorigin="anonymous"></script>
+    <title>Queen</title>
+
+    <link rel="shortcut icon" href="./img/logoqueen.ico">
+
+</head>
+
+<body>
+
+    <!-- The Modal -->
+    <div class="modal fade" id="myModal">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <img src="img/headermodal.png" alt="icono">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <h1>¿Quién dijo: <b>"Hemos creado un mundo a nuestra medida para destruirlo"?</b></h1>
+                    <h2>(Sólo tienes 4 intentos posibles).</h2>
+                    <p>¿Cuál es tu nombre? <input type="text" id="nombre"></p>
+                    <br>
+                    <button class="btn btn-secondary btn-lg btn-block" id="myButtonlg" onclick="jugar_ahora()">Jugar</button>
+                    <br>
+                    <p id="rdo"></p>
+
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Header/NavBar -->
+    <header class="bg-img" id="header">
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <a href="#biografia" onclick="closeNav()">Biografía</a>
+                <a href="#discografia" onclick="closeNav()">Discografía</a>
+                <a href="#integrantes" onclick="closeNav()">Integrantes</a>
+                <a href="./html/gallery.html" onclick="closeNav()">Galeria</a>
+                <a href="./html/contacto.html" onclick="closeNav()" target=”_blank”>Contacto</a>
+                <a href="http://www.queenonline.com" target=”_blank”>Página Oficial</a>
+            </div>
+        </div>
+    </header>
+    <button type="button" class="block" onclick="openNav()">Menu</button>
+
+    <h1>Biografía</h1>
+
+    <main class="three-columns" id="biografia">
+
+
+        <p>
+            <div><img src="img/queenbiografia.jpg" alt="imagen de los integrantes de banda queen"></div> Queen es una banda de rock británica que gozó de gran fama desde mediados de los setenta y durante toda la década de los ochenta; la espectacularidad y
+            dinamismo de sus actuaciones y la asimilación al rock de tendencias jazzísticas, sinfónicas y operísticas fueron algunas de las claves de su éxito, tan abrumador que sus discos fueron superventas incluso después del fallecimiento en 1991 de
+            su líder, el cantante Freddie Mercury. Creado en 1970, el grupo estuvo formado por Freddie Mercury (voz), Brian May (guitarra), Roger Taylor (batería) y John Deacon (bajo). Los orígenes de Queen se remontan al inicio de los sesenta, cuando
+            el joven guitarrista Brian Harold May (nacido en 1947) comenzó a tocar en un grupo semiprofesional llamado 1984. Experto conocedor de varios instrumentos de cuerda, May diseñaba incluso sus propias guitarras, conocidas posteriormente como
+            el modelo May.Brian May pasó después a formar parte de otra banda, llamada Smile, con la que editó un single. Inesperadamente, Tim Stafell, el cantante de Smile, abandonó la formación; para buscar su sustituto, los miembros de Smile decidieron
+            hacer una prueba al cantante del grupo Sour Milk Sea, que no era otro que Freddie Mercury, y fue rápidamente admitido. Por aquel entonces Freddie Mercury ya estaba acostumbrado a aparecer en público y sobre el escenario con vestimentas llamativas
+            y atrevidas. Freddie contaba con una prodigiosa voz y sobrados conocimientos de piano. A esto se unió una base rítmica firmada por John Richard Deacon (nacido en 1951) al bajo y la batería de Roger Meadows Taylor (nacido en 1949). Fue Mercury
+            quien convenció al resto de la necesidad de una refundación, empezando por un cambio de nombre; de este modo, en 1970, nació Queen. El grupo comenzó a grabar maquetas y la compañía discográfica EMI, después de verlos actuar en el Marquee de
+            Londres, se interesó por ellos. Ya en 1973, Queen se encerró por primera vez en los Trident Studios de Londres para grabar, bajo la supervisión de Roy Thomas Baker en los controles, su primer trabajo, Queen I, demostración de un rock agresivo,
+            con el sonido que en adelante caracterizaría a la banda. Le siguió, a principios de 1974, Queen II, en plena evolución y búsqueda de madurez. A Sheer heart attack, de 1974, fue para muchos un álbum de transición. Incluía temas como Brighton
+            rock o Now I´m here. El siguiente, A night at the opera, sería el disco que llevaría al estrellato a Queen y consagraría a sus miembros como dignísimos sucesores de The Beatles o de los Rolling Stones. En 1975, el single de lanzamiento Bohemian
+            Rhapsody fue un éxito mundial. La diferencia más notable respecto a trabajos anteriores radica en la intervención de todos los integrantes del grupo en la composición de los temas que integran el álbum, que anteriormente estaba en manos de
+            May y Mercury. Al año siguiente editaron otro elepé que fue la continuación del éxito anterior: A day at the races. En News of the World (1977), en cambio, se aprecian nuevos elementos; la capacidad compositora de cada uno de los componentes
+            llegó a su punto álgido en canciones como We are the champions, que sería en adelante un tema imprescindible en todos los conciertos de la banda.El álbum Jazz (1978) vino a iniciar una época de transición en la que las giras vinieron a salvar
+            el grupo de lo que parecía una crisis creativa. En 1979 se editó el directo llamado Live killers. La marcha de Roy Thomas Baker de los controles contribuyó en 1980 a que prosiguiese la evolución del grupo, tal como se evidencia en The game
+            (1980). Ese mismo año Queen tuvo su primera experiencia en el cine, componiendo la banda sonora de Flash Gordon de Dino de Laurentis.
+
+
+
+        </p>
+
+    </main>
+
+    <h2 id="discografia">Discografía</h2>
+    <section class="disco">
+
+        <div class="list">
+            <table>
+                <tr>
+                    <th>Año</th>
+                    <th>Datos del Álbum</th>
+                    <th>Lista de Canciones</th>
+                </tr>
+
+                <tr>
+                    <td>1973</td>
+                    <td>Queen</td>
+                    <td>
+                        <ul>
+
+                            <li>"Keep Yourself Alive"</li>
+
+                            <li>"Doing All Right"</li>
+
+                            <li>"Great King Rat"</li>
+
+                            <li>"My Fairy King"</li>
+
+                            <li>"Liar"</li>
+
+                            <li>"The Night Comes Down"</li>
+
+                            <li>"Modern Times Rock 'n' Roll"</li>
+
+                            <li>"Son and Daughter"</li>
+
+                            <li>"Jesus"</li>
+
+                            <li>"Seven Seas of Rhye"</li>
+
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>1974</td>
+                    <td>Queen II</td>
+                    <td>
+                        <ul>
+
+                            <li>"Procession"</li>
+
+                            <li>"Father to Son"</li>
+
+                            <li>"White Queen (As It Began)"</li>
+
+                            <li>"Some Day One Day"</li>
+
+                            <li>"The Loser in the End"</li>
+
+                            <li>"Ogre Battle"</li>
+
+                            <li>"The Fairy Feller's Master-Stroke"</li>
+
+                            <li>"Nevermore"</li>
+
+                            <li>"The March of the Black Queen"</li>
+
+                            <li>"Funny How Love Is"</li>
+
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>1975</td>
+                    <td>A Night at the Opera</td>
+                    <td>
+                        <ul>
+
+                            <li>"Death On Two Legs"</li>
+
+                            <li>"Lazing On A Sunday Afternoon"</li>
+
+                            <li>"I'm In Love With My Car"</li>
+
+                            <li>"You're My Best Friend"</li>
+
+                            <li>"'39"</li>
+
+                            <li>"Sweet Lady"</li>
+
+                            <li>"Seaside Rendezvous"</li>
+
+                            <li>"The Prophet's Song"</li>
+
+                            <li>"Love of My Life"</li>
+
+                            <li>"Good Company"</li>
+
+                            <li>"Bohemian Rhapsody"</li>
+
+                            <li>"God Save The Queen"</li>
+
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <aside>
+
+            <iframe src="https://open.spotify.com/embed/playlist/595cY5S1FpMpiEIWsk6dG7" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+        </aside>
+
+    </section>
+
+    <article class="integrantes" id="integrantes">
+        <h3>Integrantes</h3>
+        <br>
+
+        <div class="row">
+
+            <div class="column">
+
+                <div class="content">
+
+                    <div class="image">
+
+                        <img src="/img/freddiemercury.jpg" alt="freddie mercury" style="width:100%">
+
+                    </div>
+
+                    <h5>Freddie Mercury</h5>
+
+                    <p>Freddie Mercury (nacido como Farrokh Bulsara;1​2​ Stone Town, Zanzíbar; 5 de septiembre de 1946-Kensington, Londres; 24 de noviembre de 1991) fue un cantante, compositor, pianista, y músico británico de origen parsi e indio,3​ conocido
+                        por haber sido el vocalista principal de la banda de rock Queen.Como intérprete, ha sido reconocido por su poderosa voz y extravagantes puestas en escena.4​5​6​ Como compositor, escribió muchos de los éxitos de Queen, tales como
+                        Killer Queen, Bohemian Rhapsody, Somebody to Love, We Are the Champions, Don't Stop Me Now, Crazy Little Thing Called Love, It's a Hard Life o Innuendo. Además de la actividad con la banda, en los años ochenta lanzó su carrera
+                        como solista, que lo llevó a publicar dos álbumes, Mr. Bad Guy (1985) y Barcelona (1988), este último en colaboración con la soprano española Montserrat Caballé. El sencillo homónimo, una colaboración entre ambos, fue la canción
+                        oficial de los Juegos Olímpicos de Barcelona 1992.Murió de una bronconeumonía complicada por el sida el 24 de noviembre de 1991, solo un día después de comunicar oficialmente que padecía esta última enfermedad. En 2006, la revista
+                        Time Asia lo nombró como uno de los héroes asiáticos más influyentes de los últimos sesenta años.8​ En 2005, en una encuesta organizada por Blender y MTV2, fue nombrado el mejor cantante masculino de todos los tiempos.9​ En 2008,
+                        la revista estadounidense Rolling Stone lo colocó en el puesto 18 en su lista de los 100 mejores cantantes de todos los tiempos, 10​5​ mientras que Classic Rock, al año siguiente, lo consideró el mejor cantante de rock de la historia.11​Por
+                        su parte, Allmusic definió a Mercury como «uno de los líderes más carismáticos y dinámicos en la historia del rock».
+                    </p>
+                </div>
+            </div>
+
+            <div class="column">
+
+                <div class="content">
+
+                    <div class="image">
+
+                        <img src="/img/brianmay.jpg" alt="Brian May" style="width:100%">
+
+                    </div>
+
+                    <h5>Brian May</h5>
+
+                    <p>Brian Harold May (Hampton, Londres, Inglaterra; 19 de julio de 1947) es un músico, compositor y astrofísico británico. Es conocido por ser guitarrista, compositor, vocalista y en ocasiones teclista de la banda británica Queen.Compuso
+                        muchos de los temas de Queen, como "Now I'm Here", We Will Rock You", "Fat Bottomed Girls", "Save Me", "Flash", "Hammer to Fall", "Who Wants to Live Forever", "I Want It All", "The Show Must Go On", "Headlong", "Too Much Love Will
+                        Kill You" o "No-One but You (Only the Good Die Young)".​ Utiliza una guitarra eléctrica hecha por él mismo, llamada Red Special.2​ Es considerado uno de los guitarristas más grandes y originales de la historia.3​4​ En 2003 la revista
+                        Rolling Stone lo nominó en el puesto 26 de su lista de los guitarristas más grandes de todos los tiempos. En 2011, la misma revista en una nueva lista, lo posicionó nuevamente en el puesto número 26. 5​ En 2005 una entrevista de
+                        Planet Rock lo ubicó como el puesto 7 de los mejores guitarristas.En 2005 fue nombrado comendador de la Orden del Imperio Británico por sus "servicios a la industria de la música". May obtuvo un PhD en astrofísica en el Imperial
+                        College, y desde abril de 2007, fue elegido rector honorífico de la Universidad John Moores
+                    </p>
+
+                </div>
+            </div>
+
+            <div class="column">
+
+                <div class="content">
+
+                    <div class="image">
+
+                        <img src="/img/rogertyler.jpg" alt="Roger Tyler" style="width:100%">
+
+                    </div>
+                    <h5>Roger Tyler</h5>
+
+                    <p>Roger Meddows Taylor (King's Lynn, Norfolk, Inglaterra; 26 de julio de 1949), más conocido como Roger Taylor, es un músico, compositor y productor cinematográfico británico. Es reconocido por ser el batería y corista del grupo Queen.
+                        En algunas canciones como solista actuó como guitarrista y vocalista. Ha escrito canciones famosas de Queen como "Sheer Heart Attack", "I'm In Love With My Car", "Radio Ga Ga" o "A Kind of Magic". También escribió otras como "Breakthru"
+                        o "Innuendo" junto con Freddie Mercury.La revista Rolling Stone ubicó a Roger Taylor en el puesto 14 de su lista de los mejores 100 bateristas de la historia, por lo que según la revista mencionada Roger es el 11° mejor baterista
+                        vivo, ya que 3 de los bateristas que están entre los primeros 13 fallecieron (1° John Bonham, 6° Keith Moon, 11° Cozy Powell). Además ocupa el 8° puesto de los 30 bateristas más ricos del mundo, con 105 millones de dólares.3​ Taylor
+                        Hawkins, baterista de Foo Fighters, ha afirmado que Roger es uno de los bateristas más influyentes en la historia de la música
+                    </p>
+                </div>
+            </div>
+
+            <div class="column">
+
+                <div class="content">
+
+                    <div class="image">
+
+                        <img src="/img/jonhdeacon.jpg" alt="John Deacon" style="width:100%">
+
+                    </div>
+
+                    <h5>John Deacon</h5>
+
+                    <p>John Richard Deacon (Oadby, Leicester, Inglaterra; 19 de agosto de 1951) es un ingeniero, músico y compositor británico, famoso por haber sido el bajista de la banda de rock Queen. En varios discos también desempeñó el papel de guitarrista
+                        y más ocasionalmente de teclista. Es el autor de algunos de los grandes éxitos de la banda, tales como "You're My Best Friend", "Spread Your Wings", "Another One Bites the Dust", "I Want to Break Free" o "Friends Will Be Friends",
+                        lo que demuestra su importante aporte al grupo en materia creativa.Considerado uno de los bajistas más versátiles de la historia del rock, la revista Rolling Stone lo colocó en el puesto 32 en su lista de los 100 mejores bajistas
+                        de la historia.
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </article>
+
+
+    <a href="#header" class="btn btn-outline-dark" role="button" id="btntop"><i class="fas fa-arrow-circle-up"></i>Top</a>
+
+
+    <footer class="footer">
+
+        <div class="ft-legal">
+            <p>&copy; MailenHs - 2020 </p>
+        </div>
+
+        <div class="ft-social">
+            <a href="https://open.spotify.com/user/queen_hwr?si=PZmDdxQcQx2QkNrLxLXpYQ" target=”_blank”><i class="fab fa-spotify"></i></a>
+            <a href="https://twitter.com/queenwillrock" target=”_blank”><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/officialqueenmusic/" target=”_blank”><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/Queen" target=”_blank”><i class="fab fa-facebook"></i></a>
+            <a href="https://www.youtube.com/channel/UCiMhD4jzUqG-IgPzUmmytRQ" target=”_blank”><i class="fab fa-youtube"></i></a>
+
+
+        </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

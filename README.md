@@ -1,7 +1,7 @@
-#  :crown:Tributo a Queen:crown:
+#  Tributo a :crown:Queen:crown:
 Actividad del proyecto CLIP  donde se pone en práctica todo lo aprendido hasta el momento.
 
-## Tecnologias utilizdas:
+## Tecnologias utilizadas:
 * HTML
 * CSS
 * Boostrap

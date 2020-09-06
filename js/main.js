@@ -7,8 +7,7 @@ function jugar_ahora() {
 
     var cant_intentos = 4;
     var acerto = false;
-    var respuesta_correcta = ['Freddie Mercury', 'freddie mercury','FREDDIE MERCURY', 'freddie', 'Freddie','FREDDIE'];
-    var status = respuesta_correcta.includes('respuesta');
+    var respuesta_correcta = 'freddie mercury';
     var respuesta;
 
     var nombre = document.getElementById("nombre").value;
@@ -19,7 +18,7 @@ function jugar_ahora() {
         while (cant_intentos > 0 && acerto != true) {
             cant_intentos--;
             respuesta = prompt("Ingrese la respuesta");
-            if (respuesta == status) {
+            if (respuesta == respuesta_correcta) {
                 alert(" Felicidades " + nombre + "!GANASTE!!");
                 acerto = true;
             } else if (cant_intentos == 3) {
@@ -35,7 +34,7 @@ function jugar_ahora() {
 
         }
 
-        document.getElementById("rdo").innerHTML = "La respuesta correcta era:<strong> " + respuesta_correcta + "</strong>"
+        document.getElementById("rdo").innerHTML = "La respuesta correcta era:<strong> Freddie Mercury </strong>"
     }
 
 }

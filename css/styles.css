@@ -79,7 +79,7 @@ p {
 
 .modal-content h1 {
     padding: 5px;
-    font-size: 30px;
+    font-size: 25px;
     background: none;
     color: rgb(22, 22, 22);
 }
@@ -89,6 +89,19 @@ p {
     font-size: 20px;
     background: none;
     color: rgb(22, 22, 22);
+    background-color: tan;
+    border-radius: 15px;
+}
+
+.modal-content h3 {
+    padding: 5px;
+    font-size: 15px;
+    background: none;
+    color: rgb(22, 22, 22);
+}
+
+#rdo {
+    font-size: 35px;
 }
 
 

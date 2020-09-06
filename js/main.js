@@ -8,7 +8,6 @@ function jugar_ahora() {
     var cant_intentos = 4;
     var acerto = false;
     var respuesta_correcta = "Freddie Mercury";
-    var respuesta_correcta2 = "freddie mercury";
     var respuesta;
 
     var nombre = document.getElementById("nombre").value;
@@ -19,7 +18,7 @@ function jugar_ahora() {
         while (cant_intentos > 0 && acerto != true) {
             cant_intentos--;
             respuesta = prompt("Ingrese la respuesta");
-            if (respuesta == respuesta_correcta || respuesta_correcta2) {
+            if (respuesta == respuesta_correcta) {
                 alert(" Felicidades " + nombre + "!GANASTE!!");
                 acerto = true;
             } else if (cant_intentos == 3) {

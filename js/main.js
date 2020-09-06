@@ -8,7 +8,7 @@ function jugar_ahora() {
     var cant_intentos = 4;
     var acerto = false;
     var respuesta_correcta = ['Freddie Mercury', 'freddie mercury','FREDDIE MERCURY', 'freddie', 'Freddie','FREDDIE'];
-    var status = respuesta_correcta.includes('response');
+    var status = respuesta_correcta.includes('respuesta');
     var respuesta;
 
     var nombre = document.getElementById("nombre").value;

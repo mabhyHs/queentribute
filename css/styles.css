@@ -375,7 +375,7 @@ i {
         width: 50%;
     }
     .bg-img {
-        background-image: url("/img/logoqueentrans450.png");
+        background-image: url("../img/logoqueentrans450.png");
         min-height: 500px;
     }
 }
@@ -401,7 +401,7 @@ i {
         padding: 10px;
     }
     .bg-img {
-        background-image: url("/img/logoqueentrans350.png");
+        background-image: url("../img/logoqueentrans350.png");
         min-height: 350px;
     }
     .overlay a {

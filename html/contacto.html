@@ -23,10 +23,10 @@
         <h1>Contáctanos</h1>
     </header>
     <br>
+<form action="action_page.php">
+        <fieldset>
+            <legend><b>Ingresa tus datos</b></legend>
 
-    <fieldset>
-        <legend><b>Ingresa tus datos</b></legend>
-        <form action="action_page.php">
 
             <div class="row">
                 <div class="col-25">
@@ -74,30 +74,33 @@
                 <option value="Argentina">Argentina</option>
                 <option value="Brasil">Brasil</option>
                 <option value="Colombia">Colombia</option>
+                <option value="Otro">Otro</option>
               </select>
                 </div>
-    </fieldset>
-    <br><br>
-    <fieldset>
-        <legend><b>Contacto</b></legend>
-        <div class="row">
-            <div class="col-25">
-                <label for="subject">Déjanos tu mensaje</label>
             </div>
-            <div class="col-75">
-                <textarea id="subject" name="subject" placeholder="Deposite aquí su comentario, sugerencia, queja, lo que desees (max1000caracteres).." style="height:200px" maxlength="1000"></textarea>
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend><b>Contacto</b></legend>
+            <div class="row">
+                <div class="col-25">
+                    <label for="subject">Déjanos tu mensaje</label>
+                </div>
+                <div class="col-75">
+                    <textarea id="subject" name="subject" placeholder="Deposite aquí su comentario, sugerencia, queja, lo que desees (max1000caracteres).." style="height:200px" maxlength="1000"></textarea>
+                </div>
             </div>
-        </div>
-    </fieldset>
-    <br>
-    <br>
+        </fieldset>
+        <br>
+        <br>
+    </form>
+
 
     <div class="row">
         <input type="submit" value="Enviar">
     </div>
 
-    </form>
-    </div>
+    
 
     <footer class="footer">
 

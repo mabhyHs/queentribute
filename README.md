@@ -38,7 +38,10 @@ El apartado de adivinanza, deberá:
 - Creatividad en la implementación de la actividad
 - Funcionalidad del sitio web responsive solicitado
 - Coherencia
-- Prolijida-
+- Prolijidad.
+
+
+
 
  ***English 🇺🇸***
 # :crown:Queen:crown: Tribute

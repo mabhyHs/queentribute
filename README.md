@@ -40,9 +40,7 @@ El apartado de adivinanza, deberá:
 - Coherencia
 - Prolijidad.
 
-
-
-
+_______________________________________________________________________________________________________________________________________________________
  > #### English 🇺🇸
 # :crown:Queen:crown: Tribute
 Actividad del proyecto CLIP  donde se pone en práctica todo lo aprendido hasta el momento.

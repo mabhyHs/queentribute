@@ -29,7 +29,7 @@ function jugar_ahora() {
                 alert("PISTA: Soy amante de los Gatos \n  (Te queda " + cant_intentos + " intento)");
 
             } else {
-                alert("Lo siento " + nombre + " ya no quedan mas intentos, PERDISTE :(");
+               alert("Lo siento " + nombre + " ya no quedan mas intentos, PERDISTE :(.\nIgual a no desanimarse éste es el sitio perfecto para aprender más sobre Queen");
             }
 
         }
